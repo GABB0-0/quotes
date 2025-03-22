@@ -1,0 +1,62 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('quoteBg.webp');
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  max-height: 600px;
+  background: rgba(255, 255, 255, 0.2); 
+  padding: 25px;
+  margin: 80px auto;
+  border-radius: 12px;
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.title {
+  font-size: 28px;
+  color: #2d5f73c5; 
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container2 img {
+  width: 70%;
+  height: 400px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid #2d5f73;
+}
+
+button {
+  background: linear-gradient(45deg, #2d5f73, #1e3a48);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(45deg, #1e4248, #12222e);
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 600px) {
+  .container {
+      width: 90%;
+  }
+}
